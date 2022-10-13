@@ -1,0 +1,46 @@
+.titleAboutMe {
+    font-family: Sora;
+    font-size: 50px;
+    color: white;
+}
+
+.preTitle {
+    font-family: Sora;
+    font-size: 25px;
+    color: darkgray;
+}
+
+.viewTabs {
+    font-family: Sora;
+    font-size: 18px!important;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 0px;
+}
+
+.viewTabsGrey {
+    font-family: Sora;
+    font-size: 18px!important;
+    color: white;
+    background: rgba(100, 100, 100, 0.5);
+    border-radius: 0px;
+}
+
+.viewTabsGrey:hover {
+    font-family: Sora;
+    font-size: 18px!important;
+    color: white;
+    background: rgba(100, 100, 100, 0.5);
+    border-radius: 0px;
+}
+
+.viewTabs:hover {
+    background: rgba(100, 100, 100, 0.5);
+}
+
+.contentTabs {
+    font-family: Sora;
+    font-size: 18px!important;
+    color: white;
+    background: rgba(100, 100, 100, 0.5);
+}

@@ -1,0 +1,22 @@
+.ContactTitle {
+    font-family: Sora;
+    font-size: 50px;
+}
+
+video {
+    object-fit: cover;
+}
+
+.FormInput {
+    border: 1px solid blue;
+    border-radius: 0px;
+    background: transparent;
+}
+
+.FormInput:current {
+    background: transparent;
+}
+
+.sendButton {
+    border-radius: 0px;
+}

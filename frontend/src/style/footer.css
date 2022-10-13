@@ -1,0 +1,25 @@
+.titleFooter {
+    font-family: Sora;
+    font-size: 25px;
+}
+
+.email {
+    font-family: Sora;
+    font-size: 20px;
+}
+
+.copyright {
+    font-family: Sora;
+    font-size: 10px;
+    color: gainsboro;
+}
+
+.socialMedia {
+    font-family: Sora;
+    font-size: 16px;
+    color: white;
+}
+
+.socialMedia:hover {
+    color: grey;
+}

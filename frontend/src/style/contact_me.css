@@ -8,15 +8,10 @@ video {
 }
 
 .FormInput {
-    border: 1px solid blue;
-    border-radius: 0px;
+    border: 1px solid #0d6efd;
     background: transparent;
 }
 
 .FormInput:current {
     background: transparent;
-}
-
-.sendButton {
-    border-radius: 0px;
 }

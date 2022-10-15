@@ -42,7 +42,7 @@ function ContactMe() {
                             placeholder="Your message"/>
                         </div>
                         <br/>
-                        <button type="submit" className="btn btn-outline-primary sendButton">SEND</button>
+                        <button type="submit" className="btn btn-outline-primary">SEND</button>
                     </form>
                 </div>
             </div>

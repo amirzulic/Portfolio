@@ -31,7 +31,7 @@ function AboutMe() {
                         <br/>
                     </div>
                     <div className="row">
-                        <div className="col-4">
+                        <div className="col">
                             <div className="row">
                                 <button className={"btn " + (view === 1 ? "viewTabsGrey" : "viewTabs")}
                                         onClick={() => {handleSetView(1)}}>
@@ -51,12 +51,12 @@ function AboutMe() {
                                 </button>
                             </div>
                         </div>
-                        <div className="col">
+                        <div className="col-8">
                             <div className="row">
                                 {view === 1 ?
                                     <p className="contentTabs">
                                         My name is Amir Zulic. I am 22-year-old student, studying at the Faculty of Science
-                                        in the IT field and mainly a web developer trying to perfect it's craft
+                                        in the IT field and mainly a web developer trying to perfect it's craft, living in
                                         <b className="text-primary">
                                             {" " + "Sarajevo"}
                                         </b>.

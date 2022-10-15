@@ -43,7 +43,7 @@ function ProjectGallery() {
                 <div className="col">
                     <div className="row">
                         <h1 className="titleGallery">My <b className="text-primary">work</b></h1>
-                        <div className="col-4">
+                        <div className="col">
                             <div className="row">
                                 <button className={"btn " + (view === 1 ? "viewTabsGrey" : "viewTabs")}
                                         onClick={() => {handleSetView(1)}}>
@@ -63,7 +63,7 @@ function ProjectGallery() {
                                 </button>
                             </div>
                         </div>
-                        <div className="col">
+                        <div className="col-8">
                             <div className="row">
                                 {view === 1 ?
                                     <p className="contentTabs">
@@ -76,7 +76,7 @@ function ProjectGallery() {
                                         <i className="text-primary">
                                             <a href="https://github.com/amirzulic/AuctionApp"
                                                className="text-decoration-none text-primary"
-                                            >https://github.com/amirzulic/AuctionApp</a>
+                                            >AUCTION APP</a>
                                         </i>
                                     </p> : null
                                 }
@@ -91,7 +91,7 @@ function ProjectGallery() {
                                         <i className="text-primary">
                                             <a href="https://github.com/amirzulic/AuctionApp"
                                                className="text-decoration-none text-primary"
-                                            >https://github.com/amirzulic/Travel</a>
+                                            >TRAVEL</a>
                                         </i>
                                     </p> : null
                                 }
@@ -107,7 +107,7 @@ function ProjectGallery() {
                                         <i className="text-primary">
                                             <a href="https://github.com/amirzulic/AuctionApp"
                                                className="text-decoration-none text-primary"
-                                            >https://github.com/amirzulic/Chat-Room</a>
+                                            >CHAT ROOM</a>
                                         </i>
                                     </p> : null
                                 }
@@ -125,7 +125,7 @@ function ProjectGallery() {
                                         <i className="text-primary">
                                             <a href="https://github.com/amirzulic/AuctionApp"
                                                className="text-decoration-none text-primary"
-                                            >https://github.com/amirzulic</a>
+                                            >GITHUB LINK</a>
                                         </i>
                                     </p> : null
                                 }

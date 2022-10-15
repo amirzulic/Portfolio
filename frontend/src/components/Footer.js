@@ -15,7 +15,7 @@ function Footer() {
                 <hr className="border-primary"/>
             </div>
             <div className="row">
-                <div className="col">
+                <div className="col-6">
                     <h1 className="titleFooter">Need my social media?</h1>
                     <h2>
                         <b className="text-primary email">
@@ -23,26 +23,26 @@ function Footer() {
                         </b>
                     </h2>
                 </div>
-                <div className="col-2 text-end">
+                <div className="col text-end">
                     <img src={Instagram} height="20px"/>
                     <h3 className="socialMedia">
-                        <a href="https://www.instagram.com/zulagaba" className="text-decoration-none text-white" target="_blank">
+                        <a href="https://www.instagram.com/zulagaba" className="text-decoration-none" target="_blank">
                             Instagram
                         </a>
                     </h3>
                 </div>
-                <div className="col-2 text-end">
+                <div className="col text-end">
                     <img src={LinkedIn} height="20px"/>
                     <h3 className="socialMedia">
-                        <a href="https://www.linkedin.com/in/amir-zulic-80b70b199/" className="text-decoration-none text-white" target="_blank">
+                        <a href="https://www.linkedin.com/in/amir-zulic-80b70b199/" className="text-decoration-none" target="_blank">
                             LinkedIn
                         </a>
                     </h3>
                 </div>
-                <div className="col-2 text-end">
+                <div className="col text-end">
                     <img src={Facebook} height="20px"/>
                     <h3 className="socialMedia">
-                        <a href="https://www.facebook.com/amir.zulic9" className="text-decoration-none text-white" target="_blank">
+                        <a href="https://www.facebook.com/amir.zulic9" className="text-decoration-none" target="_blank">
                             Facebook
                         </a>
                     </h3>
@@ -51,10 +51,10 @@ function Footer() {
             <div className="row">
                 <br/>
             </div>
-            <div className="row">
+            <div className="row align-items-center justify-content-center">
                 <p className="copyright">
                     <img src={Copyright} height="8px"/>
-                    Copyright 2022 - Zulic Amir
+                    {" Copyright 2022 - Zulic Amir"}
                 </p>
             </div>
         </div>

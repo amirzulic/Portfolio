@@ -22,7 +22,7 @@ function LandingPage() {
                     </button>
                 </div>
                 <div className="col text-end">
-                    <img src={Slika} alt="zula" className="rounded shadow"/>
+                    <img src={Slika} className="rounded img-fluid"/>
                 </div>
             </div>
             <div className="row">

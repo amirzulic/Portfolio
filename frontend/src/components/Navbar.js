@@ -7,8 +7,10 @@ function Navbar() {
     return(
         <div className="container">
             <nav className="navbar navbar-expand-lg navbar-dark fixed-top container bg-transparent">
-                <img src="https://cdn-icons-png.flaticon.com/512/5968/5968654.png"
-                     width="30" height="30" alt=""/>
+                <Link to="LandingPage">
+                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968654.png"
+                         width="30" height="30" alt=""/>
+                </Link>
                 {/*<button className="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">

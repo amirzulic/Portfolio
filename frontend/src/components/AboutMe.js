@@ -19,11 +19,11 @@ function AboutMe() {
                 <br/>
             </div>
             <div className="row">
-                <div className="col-4">
+                <div className="col-lg-4 col-md-12 col-sm-12 text-lg-start text-center">
                     <img src={Avatar} className="img-fluid rounded"/>
                 </div>
-                <div className="col">
-                    <div className="row">
+                <div className="col-lg-8 col-md-12 col-sm-12">
+                    <div className="row text-center">
                         <h2 className="preTitle">Want to know more</h2>
                         <h1 className="titleAboutMe">About <b className="text-primary">me?</b></h1>
                     </div>

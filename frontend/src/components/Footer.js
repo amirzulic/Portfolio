@@ -15,7 +15,7 @@ function Footer() {
                 <hr className="border-primary"/>
             </div>
             <div className="row">
-                <div className="col-sm">
+                <div className="col-lg-6 col-md-12 col-sm-12 text-lg-start text-center">
                     <div className="row">
                         <h1 className="titleFooter">Need my social media?</h1>
                     </div>
@@ -27,7 +27,7 @@ function Footer() {
                         </h2>
                     </div>
                 </div>
-                <div className="col-sm-4 flex-row d-flex">
+                <div className="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-lg-end justify-content-center">
                     <img src={Instagram} height="20px"/>
                     <h3 className="socialMedia px-2">
                         <a href="https://www.instagram.com/zulagaba" className="text-decoration-none" target="_blank">

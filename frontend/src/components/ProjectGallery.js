@@ -40,7 +40,7 @@ function ProjectGallery() {
             </div>
             <br/>
             <div className="row">
-                <div className="col">
+                <div className="col-lg-6 col-md-12 col-sm-12">
                     <div className="row">
                         <h1 className="titleGallery">My <b className="text-primary">work</b></h1>
                         <div className="col">
@@ -157,7 +157,7 @@ function ProjectGallery() {
                         </div>
                     </div>
                 </div>
-                <div className="col text-center">
+                <div className="col-lg-6 col-md-12 col-sm-12 text-lg-end text-center">
                     {/*<ImageGallery items={images}
                                   infinite={true}
                                   showNav={false}

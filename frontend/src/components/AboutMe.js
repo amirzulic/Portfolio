@@ -31,7 +31,7 @@ function AboutMe() {
                         <br/>
                     </div>
                     <div className="row">
-                        <div className="col">
+                        <div className="col-lg-4 col-md-12 col-sm-12">
                             <div className="row">
                                 <button className={"btn " + (view === 1 ? "viewTabsGrey" : "viewTabs")}
                                         onClick={() => {handleSetView(1)}}>
@@ -51,7 +51,7 @@ function AboutMe() {
                                 </button>
                             </div>
                         </div>
-                        <div className="col-8">
+                        <div className="col-lg-8 col-md-12 col-sm-12">
                             <div className="row">
                                 {view === 1 ?
                                     <p className="contentTabs">

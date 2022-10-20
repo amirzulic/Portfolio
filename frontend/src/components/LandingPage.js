@@ -11,7 +11,7 @@ function LandingPage() {
             </div>
             <br/>
             <div className="row align-items-center justify-content-center">
-                <div className="col text-light">
+                <div className="col-lg-6 col-md-12 col-sm-12 text-light text-lg-start text-center">
                     <h3>I am a <b className="text-primary">web developer</b></h3>
                     <br/>
                     <h1 className="bigText"><b>Work is better shown than told about</b></h1>
@@ -21,7 +21,7 @@ function LandingPage() {
                         <Link className="nav-link" to="ContactMe" spy={true} smooth={true} offset={-50} duration={300}>CONTACT ME -> </Link>
                     </button>
                 </div>
-                <div className="col text-end">
+                <div className="col-lg-6 col-md-12 col-sm-12 text-end">
                     <img src={Slika} className="rounded img-fluid"/>
                 </div>
             </div>

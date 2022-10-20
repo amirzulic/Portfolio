@@ -43,7 +43,7 @@ function ProjectGallery() {
                 <div className="col-lg-6 col-md-12 col-sm-12">
                     <div className="row">
                         <h1 className="titleGallery">My <b className="text-primary">work</b></h1>
-                        <div className="col">
+                        <div className="col-lg-4 col-md-12 col-sm-12">
                             <div className="row">
                                 <button className={"btn " + (view === 1 ? "viewTabsGrey" : "viewTabs")}
                                         onClick={() => {handleSetView(1)}}>
@@ -63,7 +63,7 @@ function ProjectGallery() {
                                 </button>
                             </div>
                         </div>
-                        <div className="col-8">
+                        <div className="col-lg-8 col-md-12 col-sm-12">
                             <div className="row">
                                 {view === 1 ?
                                     <p className="contentTabs">
@@ -167,7 +167,7 @@ function ProjectGallery() {
                                   showThumbnails={false}
                                   autoPlay={true}
                     />*/}
-                    <img src={Smoke}/>
+                    <img src={Smoke} className="img-fluid"/>
                 </div>
             </div>
         </div>

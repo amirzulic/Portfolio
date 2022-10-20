@@ -42,7 +42,7 @@ function ProjectGallery() {
             <div className="row">
                 <div className="col-lg-6 col-md-12 col-sm-12">
                     <div className="row">
-                        <h1 className="titleGallery">My <b className="text-primary">work</b></h1>
+                        <h1 className="titleGallery text-lg-start text-center">My <b className="text-primary">work</b></h1>
                         <div className="col-lg-4 col-md-12 col-sm-12">
                             <div className="row">
                                 <button className={"btn " + (view === 1 ? "viewTabsGrey" : "viewTabs")}

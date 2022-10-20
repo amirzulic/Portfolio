@@ -51,7 +51,7 @@ function Footer() {
             <div className="row">
                 <br/>
             </div>
-            <div className="row align-items-center justify-content-center">
+            <div className="row text-lg-start text-center">
                 <p className="copyright">
                     <img src={Copyright} height="8px"/>
                     {" Copyright 2022 - Zulic Amir"}

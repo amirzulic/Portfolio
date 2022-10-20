@@ -27,20 +27,20 @@ function ContactMe() {
             <div className="row">
                 <br/>
             </div>
-            <div className="row">
+            <div className="row text-lg-start text-center">
                 <h1 className="ContactTitle">Contact me</h1>
                 <h5>Got a <b className="text-primary">question</b> or an <b className="text-primary">offer</b>?</h5>
             </div>
             <div className="row">
                 <br/>
             </div>
-            <div className="row">
+            <div className="row text-lg-start text-center">
                 <br/>
                 <h2>You can reach out to me down below!</h2>
             </div>
             <br/>
             <div className="row justify-content-center align-items-center">
-                <div className="col">
+                <div className="col text-lg-start text-center">
                     <form onSubmit={sendEmail} ref={form}>
                         <div className="form-group">
                             <input type="text" className="form-control form-control-lg FormInput"
